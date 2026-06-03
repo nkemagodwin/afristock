@@ -5,7 +5,7 @@ import { User, MessageCircle, Calendar } from "lucide-react"
 const blogPosts = [
   {
     title: "The Strategic Value of Nigerian Cassiterite in Global Markets",
-    image: "https://images.unsplash.com/photo-1581093458791-9d42e3c7e117?w=600&h=400&fit=crop",
+    image: "https://6a1f529266b5d7d9ebc65abc.imgix.net/images/cassiterite.png",
     author: "Admin",
     date: "Apr 24, 2026",
     comments: 0,
