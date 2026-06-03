@@ -4,7 +4,7 @@ import Link from "next/link"
 const products = [
   {
     title: "Cashew",
-    image: "https://images.unsplash.com/photo-1563292738-3eeff5f4f136?w=300&h=300&fit=crop",
+    image: "https://6a1f529266b5d7d9ebc65abc.imgix.net/images/cashew.png",
     href: "/products/cashew",
   },
   {
@@ -14,7 +14,7 @@ const products = [
   },
   {
     title: "Groundnuts",
-    image: "https://images.unsplash.com/photo-1567892320421-1c657571ea4a?w=300&h=300&fit=crop",
+    image: "https://6a1f529266b5d7d9ebc65abc.imgix.net/images/download.jpg",
     href: "/products/groundnuts",
   },
   {
@@ -76,7 +76,7 @@ export function Products() {
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
               <div className="p-4 text-center">
                 <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">

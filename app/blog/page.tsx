@@ -14,7 +14,7 @@ const blogPosts = [
   {
     title: "The Strategic Value of Nigerian Cassiterite in Global Markets",
     excerpt: "Exploring the growing demand for Nigerian cassiterite and its role in global electronics manufacturing supply chains.",
-    image: "https://images.unsplash.com/photo-1581093458791-9d42e3c7e117?w=800&h=500&fit=crop",
+    image: "https://6a1f529266b5d7d9ebc65abc.imgix.net/images/cassiterite.png",
     author: "Admin",
     date: "Apr 24, 2026",
     comments: 0,
@@ -54,7 +54,7 @@ const blogPosts = [
   {
     title: "Sustainable Farming Practices in Nigerian Cashew Production",
     excerpt: "Examining the shift towards sustainable farming practices in Nigeria&apos;s cashew industry.",
-    image: "https://images.unsplash.com/photo-1563292738-3eeff5f4f136?w=800&h=500&fit=crop",
+    image: "https://6a1f529266b5d7d9ebc65abc.imgix.net/images/cashew.png",
     author: "Admin",
     date: "Apr 15, 2026",
     comments: 5,

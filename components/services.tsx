@@ -6,7 +6,7 @@ const services = [
   {
     title: "Cashew",
     description: "Indulge in the exquisite taste of our premium Cashew nuts, sourced from the heart of Nigeria's orchards.",
-    image: "https://images.unsplash.com/photo-1563292738-3eeff5f4f136?w=400&h=300&fit=crop",
+    image: "https://6a1f529266b5d7d9ebc65abc.imgix.net/images/cashew.png",
     icon: TreeDeciduous,
     href: "/products/cashew",
   },
@@ -65,7 +65,7 @@ export function Services() {
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/50 to-transparent" />
               </div>
               <div className="p-6">
                 <p className="text-sm text-muted-foreground mb-4 line-clamp-3">

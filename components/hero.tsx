@@ -6,7 +6,7 @@ import { ArrowRight, Play } from "lucide-react"
 
 export function Hero() {
   return (
-    <section className="relative min-h-[600px] lg:min-h-[700px] flex items-center overflow-hidden">
+    <section className="relative `min-h-150` `lg:min-h-175` flex items-center overflow-hidden">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"

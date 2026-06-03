@@ -14,7 +14,7 @@ const products = [
   {
     title: "Cashew",
     slug: "cashew",
-    image: "https://images.unsplash.com/photo-1563292738-3eeff5f4f136?w=600&h=400&fit=crop",
+    image: "https://6a1f529266b5d7d9ebc65abc.imgix.net/images/cashew.png",
     description: "Premium quality raw cashew nuts sourced directly from Nigerian farms. Known for their large size and rich flavor.",
   },
   {
@@ -32,7 +32,7 @@ const products = [
   {
     title: "Groundnuts",
     slug: "groundnuts",
-    image: "https://images.unsplash.com/photo-1567892320421-1c657571ea4a?w=600&h=400&fit=crop",
+    image: "https://6a1f529266b5d7d9ebc65abc.imgix.net/images/download.jpg",
     description: "Nutritious groundnuts perfect for oil extraction, confectionery, and direct consumption.",
   },
   {
@@ -112,7 +112,7 @@ export default function ProductsPage() {
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-500"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                  <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent" />
                   <h3 className="absolute bottom-4 left-4 text-xl font-bold text-white">
                     {product.title}
                   </h3>

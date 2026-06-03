@@ -8,6 +8,7 @@ import { Contact } from "@/components/contact"
 import { Blog } from "@/components/blog"
 import { Footer } from "@/components/footer"
 
+
 export default function Home() {
   return (
     <main className="min-h-screen">
